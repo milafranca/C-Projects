@@ -11,7 +11,7 @@ int main() {
     
     while(i == 0){
         printf("  CALCULATOR  \n");
-        printf("Enter the calculation: ");
+        printf("Enter the calculation: \n");
         printf("1) Sum.  \n");
         printf("2) Subtration.  \n");
         printf("3) Division.  \n");
@@ -74,3 +74,4 @@ int main() {
 
     return 0;
 }
+
