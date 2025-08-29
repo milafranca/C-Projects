@@ -18,7 +18,7 @@ int main() {
         printf("4) Multiplication.  \n");
         printf("         \n");
         printf("Type (5) to leave the program.  \n");
-        scanf("%d, &choice");
+        scanf("%d", &choice);
 
         if(choice == 5){
             exit(0);
@@ -74,4 +74,5 @@ int main() {
 
     return 0;
 }
+
 
