@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Calculator",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "src/main.c",
+                "src/operations.c",
+                "-o",
+                "build\\calculator.exe"
+            ],
+            "group": "build"
+        },
+        {
+            "label": "Run Calculator",
+            "type": "shell",
+            "command": "build\\calculator.exe",
+            "group": "test",
+            "dependsOn": "Build Calculator"
+        }
+    ]
+}
